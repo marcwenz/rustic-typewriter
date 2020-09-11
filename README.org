@@ -1,4 +1,58 @@
 #+TITLE: rustic-typewriter
 
-#+CAPTION: Typewriter
-[[[[./images/typewriter.jpg]]]]
+[[./images/typewriter.jpg]]
+
+A program to help you learn touch typing and test your speed.
+
+* Layout
+** 1
+_word word word_ *wo* rd word word word word     -> current word line
+word word word word word word word word     -> Next word line
+
+				   *wo*                         -> typing buffer
+
+** 2
+word word word *wo* rd word word word ...     -> continuous word line
+
+                *wo*                          -> typing buffer
+* Highlighting
+** 1
+Highlight current word typed chars green, wrong in red.
+Not yet typed words in normal white
+Correctly done words in grey, incorrect chars in fat red
+* Typo handling
+** Highlight wrong char and continue
+
+** Highlight word red if wrong char
+When typing the word only highlight it red if a typo comes. Once word is
+completed, continue and either highlight it green if correct or red if wrong.
+You can see what you typed in the typing buffer and correct it there
+** Allow correctiing
+*** Backspace
+**** Only allow typos in current word
+**** Continuous typing - can correct errors in previous words
+*** Stay on char until correct pressed
+** Don't allow correcting
+** Require everything typed correctly
+On typo highlight text and everything after it red and require correction of
+first error .
+* Modes
+** Test/training mode
+Set length and test typing speed
+** Continuous mode
+Keep typing until you press enter/esc. Then display statistics.
+** Most popular words
+- 100
+- 1000
+- 2000
+** Gibberish
+- Specify characters to train on
+- Make selection automatically based on kbd layout
+** Quote mode
+- Based on quote book of python wpm
+* Installation
+
+* Usage
+
+* Features roadmap [/]
+- [ ]
