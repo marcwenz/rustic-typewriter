@@ -5,14 +5,14 @@
 A program to help you learn touch typing and test your speed.
 
 * Layout
-** 1
+- 1
 _word word word_ *wo* rd word word word word     -> current word line
 word word word word word word word word     -> Next word line
 
 				   *wo*                         -> typing buffer
 
-** 2
-word word word *wo* rd word word word ...     -> continuous word line
+- 2
+    word word word *wo* rd word word word ...     -> continuous word line
 
                 *wo*                          -> typing buffer
 * Highlighting
@@ -55,3 +55,5 @@ word word word *wo* rd word word word ...     -> continuous word line
 
 * Features roadmap [/]
 - [ ]
+* Current
+Try to wrap an editview into canvas and see whether it takes focus
