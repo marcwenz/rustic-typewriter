@@ -1,0 +1,4 @@
+#+TITLE: rustic-typewriter
+
+#+CAPTION: Typewriter
+[[[[./images/typewriter.jpg]]]]
