@@ -23,9 +23,9 @@ word word word *wo* rd word word word ...     -> continuous word line
 * Typo handling
 - *Highlight wrong char and continue*
 - *Highlight word red if wrong char*
-When typing the word only highlight it red if a typo comes. Once word is
-completed, continue and either highlight it green if correct or red if wrong.
-You can see what you typed in the typing buffer and correct it there
+  When typing the word only highlight it red if a typo comes. Once word is
+  completed, continue and either highlight it green if correct or red if wrong.
+  You can see what you typed in the typing buffer and correct it there
 - *Allow correctiing*
   - Backspace
     - Only allow typos in current word
